@@ -1,6 +1,6 @@
 # Personal Website and Blog
 
-My personal portfolio website including a blog. Built using Django. Live version available at: aaronwalkerdev.co.uk
+My personal portfolio website including a blog. Built using Django. Live version available at: [aaronwalkerdev.co.uk](aaronwalkerdev.co.uk)
 
 ## Deployment
 
@@ -13,4 +13,4 @@ Published to a Linode VPS, using Apache2.
 
 ## Available at 
 
-The live version of the website is available at: aaronwalkerdev.co.uk
+The live version of the website is available at: [aaronwalkerdev.co.uk](aaronwalkerdev.co.uk)
