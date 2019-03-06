@@ -1,10 +1,10 @@
 {% extends 'main/header.html' %}
 
 {% block content %}
-    <div class="wrapper">
+    <div class="wrapper-article grey lighten-5">
         <h3>{{ article.title }}</h3>
         <p style="font-size:80%">Published {{ article.date }}</p>
         <p>{{ article.body|safe }}</p><br>
-        <a class="waves-effect waves-light btn" href="/">Back</a>
+        <a class="waves-effect waves-light btn teal darken-3" href="/">Back</a>
     </div>
 {% endblock %}

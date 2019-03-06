@@ -1,4 +1,54 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .wrapper {
-    padding-left: 15px;
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+.wrapper-article {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    flex: 1 0 auto;
+}
+
+.wrapper-about {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    flex: 1 0 auto;
+}
+
+.btn-center {
+    margin: auto;
+    width: 196px;
+    padding: 10px;
+}
+
+.btn-top-right {
+    position:absolute;
+    top:100;
+    right:50;
+}
+
+.about-section {
+    padding-top: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.footer-list li {
+    display: inline;
     padding-right: 20px;
 }

@@ -1,27 +1,45 @@
 <head>
     {% load static %}
+    <title>Aaron Walker</title>
+    <link rel="icon" href="../../../../../static/main/img/icon.png" type="image/x-icon"/>
     <!-- TinyMCE CSS -->
     <link href="{% static 'tinymce/css/prism.css' %}" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
     <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
     <!-- Compiled and minified JavaScript for Materialize CSS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{% static 'main/js/scripts.js' %}"></script>
 </head>
 
 <body>
+  <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">&nbsp;&nbsp;Aaron Walker</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="/">Blog</a></li>
-            <li><a href="/about/">About Me</a></li>
-            <li><a href="/finalyearproject">Final Year Project</a></li>
-            </ul>
-        </div>
+      <div class="nav-wrapper teal darken-3">
+        <stong><a href="/" class="brand-logo white-text">&nbsp;&nbsp;Aaron Walker</a></stong>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="white-text" href="/">Blog</a></li>
+          <li><a class="white-text" href="/about">About</a></li>
+          <li><a class="white-text" href="/projects/">Projects</a></li>
+          <!--<li><a class="white-text" href="/finalyearproject/">Final Year Project</a></li>-->
+        </ul>
+      </div>
     </nav>
-
+  </div>
     {% block content %}
     {% endblock %}
-
+    <footer class="page-footer grey lighten-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="black-text">More From Me</h5>
+              <ul class="footer-list">
+                <li><a class="teal-text" href="https://github.com/AaronWalker96">GitHub</a></li>
+                <li><a class="teal-text" href="https://www.linkedin.com/in/aaron-james-walker/">Linked In</a></li>
+                <li><a class="teal-text" href="https://twitter.com/Aaron_Walker96">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
 <script src="{% static 'tinymce/js/prism.js' %}"></script>

@@ -5,5 +5,6 @@ urlpatterns = [
     path('', include('main.urls')),
     path('admin/', admin.site.urls),
     path('tinymce/', include('tinymce.urls')),
-    path('finalyearproject', include('finalyearproject.urls'))
+    path('finalyearproject/', include('finalyearproject.urls')),
+    path('projects/', include('finalyearproject.urls'))
 ]
